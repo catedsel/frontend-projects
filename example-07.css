@@ -11,18 +11,46 @@
 }
 
 
-.header {}
+.header:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
 
-.logo {}
+.logo {
+	width: 200px;
+	float: left;
+}
 
-.navigation {}
+.navigation {
+	float: right;
+	width: 690px;
+}
 
-.sidebar {}
+.sidebar {
+	float: left;
+	width: 200px;
+}
 
-.main-content {}
+.main-content:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
 
-.sub-content {}
+.sub-content {
+	float: right;
+	width: 690px;
+}
 
-.sub-content-2 {}
+.sub-content-2 {
+	clear: right;
+	float: right;
+	width: 690px;
+}
 
 .footer {}
