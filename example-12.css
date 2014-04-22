@@ -57,10 +57,14 @@
 .todo-info {
 	margin-left: 15px;
 	margin-bottom: 20px;
-	margin-top: 10px;
+
 	float: left;
 }
 .icon, .todo-info, .check {}
+
+.check {
+	float: right;
+}
 
 /* Title */
 .todo-title {
@@ -72,6 +76,5 @@
 
 /* Checkboxes! */
 input[type=checkbox] {
-	float: right;
 	margin-top: 30px;
 }
